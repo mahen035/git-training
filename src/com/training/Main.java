@@ -19,7 +19,11 @@ public class Main {
 		else {
 			System.out.println("Connection failed..");
 		}
- System.out.println("heloo guys");
+		System.out.println("heloo guys");
+		for(int i=0;i<=10;i++) {
+			System.out.println(i);
+		}
+ 
 	}
 
 }
