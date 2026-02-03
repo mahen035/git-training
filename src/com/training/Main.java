@@ -21,7 +21,6 @@ public class Main {
 
 		String url = "jdbc:postgresql://localhost:5432/testdb";
 		String username = "postgres";
-		String password="pass123";
 		Class.forName("org.postgresql.Driver");
 		Connection conn = DriverManager.getConnection(url,username, password);
 		if(conn != null) {
