@@ -14,6 +14,11 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		System.out.println("Hello World!!");
+		System.out.println("abcdefghij");
+		System.out.println("abcdefghij");
+		System.out.println("abcdefghij");
+		System.out.println("second brach");
+
 		String url = "jdbc:postgresql://localhost:5432/testdb";
 		String username = "postgres";
 		String password="pass123";
@@ -29,6 +34,8 @@ public class Main {
 			
 			
 			printMessage();
+		
+ System.out.println("heloo guys");
 	}
 
 }
