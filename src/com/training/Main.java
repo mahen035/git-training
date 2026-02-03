@@ -1,4 +1,4 @@
-package com.training;
+ package com.training;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -19,9 +19,10 @@ public class Main {
 		else {
 			System.out.println("Connection failed..");
 		}
-		System.out.println("heloo guys");
+		System.out.println("heloo guys i am guru learning");
 		for(int i=0;i<=10;i++) {
 			System.out.println(i);
+			
 		}
  
 	}
